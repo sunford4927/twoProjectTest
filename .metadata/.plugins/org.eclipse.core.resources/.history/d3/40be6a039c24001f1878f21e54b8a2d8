@@ -1,0 +1,15 @@
+package com.smhrd.myapp;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+public class MemberController {
+	// 회원가입 요청 처리 : localhost:8089/myapp/member/join
+	
+	@RequestMapping(value="/member/join", method=RequestMethod.POST)
+	public void memberJoin() {
+		
+	}
+}

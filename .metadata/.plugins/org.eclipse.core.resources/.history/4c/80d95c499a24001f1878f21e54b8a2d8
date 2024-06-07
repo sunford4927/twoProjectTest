@@ -1,0 +1,11 @@
+package com.smhrd.myapp.model;
+
+public class MavenMember {
+	
+	// lombok 사용법
+	// 1. 현재 사용하는 이클립스를 lombok 프로그램에 추가
+	
+	private String id;
+	private String pw;
+	private String nickname;
+}

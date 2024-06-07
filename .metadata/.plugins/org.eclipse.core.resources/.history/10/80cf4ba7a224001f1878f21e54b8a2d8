@@ -1,0 +1,14 @@
+package com.smhrd.myapp.service;
+
+import org.springframework.stereotype.Service;
+
+import com.smhrd.myapp.model.MavenMember;
+
+@Service
+public class MemberService {
+	// 회원가입 처리
+	public void memberJoin(MavenMember member)
+	{
+		
+	}
+}
